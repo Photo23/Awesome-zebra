@@ -1,0 +1,12 @@
+
+public class SumTester {
+	 public static void main(String[] args)
+	   {
+		 
+		 int overall = sumCalculator.sum(15);
+		 
+		 
+   System.out.println(overall);
+   System.out.println("Expected: 120");
+}
+}

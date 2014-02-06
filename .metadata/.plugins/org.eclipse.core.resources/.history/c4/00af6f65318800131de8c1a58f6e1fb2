@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class FaceTester {
+	public static void main(String[] args);
+	{
+		//Asks user for normal or opposite face
+		System.out.print("Do you want a normal face or an opposite face? ");
+		Scanner in = new Scanner(System.in);
+		String face = in.next();
+		
+		// Creates Normal Face
+		if (face == "normal")
+		{
+			System.out.println("normal face");
+		}
+		
+		// Creates Opposite Face
+		else if (face == "opposite")
+		{
+			System.out.println("opposite face");
+		}
+		
+	}
+}

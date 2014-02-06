@@ -1,0 +1,11 @@
+
+public class SumTester {
+	 public static void main(String[] args)
+	   {
+		 sumCalculator combined = new sumCalculator();
+		 int overall = combined.sum(10);
+		 
+		 
+   System.out.println(overall);
+}
+}
